@@ -1,4 +1,4 @@
-# Intro-Design-AI-Apps
+# Introduction to Designing AI Applications
 
 A collection of projects from OCAD University's course: [Introduction to Designing Artificial Intelligence (AI) Applications](https://continuingstudies.ocadu.ca/search/publicCourseSearchDetails.do?method=load&courseId=12164429).
 
