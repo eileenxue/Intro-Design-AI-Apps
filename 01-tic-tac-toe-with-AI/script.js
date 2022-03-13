@@ -22,6 +22,7 @@ let win_sequence = [
 function init() {
   // alert('Start game');
   $('#board button').text('?').removeClass('activated x o');
+  $('#log').text('');
   turn = 'X';
 }
 
