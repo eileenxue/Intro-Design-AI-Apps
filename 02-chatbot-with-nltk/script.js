@@ -38,7 +38,7 @@ function send(e) {
   $('#msg').val('');
 
   let path = 'eileen.xue/eliza/chat.py';
-  let url = 'https://ocadu.goodcodeclub.com/chat?path=' + path + '&msg=' + msg;
+  let url = 'https://ocadu.goodcodeclub.com/chat/?path=' + path + '&msg=' + msg;
 
   $.ajax({
     url: url,
