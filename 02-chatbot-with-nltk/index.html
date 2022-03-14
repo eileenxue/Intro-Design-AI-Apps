@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
   <body>
-    <h1 id="title">Chatbot</h1>
-    <textarea id="chat" placeholder="Welcome to our chat application"></textarea>
+    <h1 id="title">Chat with 🤖</h1>
+    <textarea id="chat" readonly placeholder="Start chatting with the robot..."></textarea>
     <form id="user">
-      <input type="text" id="msg" placeholder="Chat here" />
-      <br />
-      <button id="send">Send</button>
+      <input type="text" id="msg" autofocus placeholder="Chat here" />
+      <button id="send" class="btn">Send</button>
     </form>
-    <button id="speak">Speak</button>
+    <button id="speak" class="btn">🎙 Speak</button>
   </body>
 </html>

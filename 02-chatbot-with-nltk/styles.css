@@ -1,35 +1,85 @@
+html {
+  height: 100%;
+}
+
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Ubuntu Mono', Courier, monospace;
   text-align: center;
+  background-color: #fa8bff;
+  background-image: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #title {
   font-size: 3rem;
+  color: white;
+  text-shadow: 3px 1px 12px #003f7ee3;
 }
 
 #chat {
   width: 400px;
   height: 300px;
+  padding: 1rem 1rem 0rem 1rem;
+  box-sizing: border-box;
+  font-family: 'Ubuntu Mono', Courier, monospace;
+  font-size: 1.1rem;
+  border: 1rem solid black;
+  border-bottom-width: 0px;
+  resize: none;
+  margin-bottom: -3px;
+}
+
+#chat:focus-visible {
+  outline: none;
+}
+
+#user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: black;
 }
 
 #msg {
-  width: 400px;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  font-family: 'Ubuntu Mono', Courier, monospace;
+  font-size: 1rem;
+  border: 1px solid white;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Ubuntu Mono', Courier, monospace;
 }
 
 #send {
-  width: 400px;
-  margin-top: 1rem;
-  background-color: black;
-  color: white;
+  background-color: gold;
+  color: black;
+  border: 1px solid gold;
+  padding: 0.5rem 1rem;
 }
 
 #speak {
   width: 400px;
   margin-top: 1rem;
-  background-color: blue;
+  background-color: mediumblue;
   color: white;
+  border: none;
+  padding: 0.5rem;
 }
 
 #speak.activated {
-  background-color: red;
+  background-color: crimson;
 }

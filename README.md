@@ -5,7 +5,7 @@ A collection of projects from OCAD University's course: [Introduction to Designi
 ### Live Demos
 
 1. [Tic Tac Toe with AI](https://eileenxue.github.io/Intro-Design-AI-Apps/01-tic-tac-toe-with-AI/)
-2. Coming Soon
+2. [Chatbot with Natural Language Toolkit](https://eileenxue.github.io/Intro-Design-AI-Apps/02-chatbot-with-nltk/)
 3. Coming Soon
 4. Coming Soon
 5. Coming Soon

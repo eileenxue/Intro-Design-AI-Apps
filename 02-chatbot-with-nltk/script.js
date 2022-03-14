@@ -12,7 +12,7 @@ recognition.onresult = function (e) {
 
   $('#msg').val(transcript);
   recognition.stop();
-  $('#speak').removeClass('activated');
+  $('#speak').removeClass('activated').text('🎙 Speak');
   $('#user').submit();
 };
 
@@ -20,7 +20,7 @@ recognition.onresult = function (e) {
 function recognize() {
   // alert('!');
   recognition.start();
-  $(this).addClass('activated');
+  $(this).addClass('activated').text('🎧 Listening...');
 }
 
 function send(e) {
