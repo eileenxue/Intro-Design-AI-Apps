@@ -29,6 +29,7 @@ body {
   font-family: 'Ubuntu Mono', Courier, monospace;
   font-size: 1.1rem;
   border: 1rem solid black;
+  border-radius: 0;
   border-bottom-width: 0px;
   resize: none;
   margin-bottom: -3px;
