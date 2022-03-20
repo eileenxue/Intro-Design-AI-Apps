@@ -6,9 +6,33 @@
     <title>Emotion Tracker with Computer Vision</title>
     <link href="styles.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <!-- Include Handsfree.js -->
+    <link rel="stylesheet" href="https://unpkg.com/handsfree@8.5.1/build/lib/assets/handsfree.css" />
+    <script src="https://unpkg.com/handsfree@8.5.1/build/lib/handsfree.js"></script>
   </head>
   <body>
-    <h1>Tracker</h1>
+    <div id="container">
+      <h1>Emotion Tracker</h1>
+      <div id="main">
+        <video
+          id="player"
+          crossorigin="anonymous"
+          src="https://ocadu.goodcodeclub.com/video/?path=https://player.vimeo.com/external/365690002.sd.mp4?s=029fd5766f7cd67fcbf422f882dfd8f06bcb470c&profile_id=139&oauth2_token_id=57447761"
+          controls
+          loop
+          muted
+        ></video>
+        <div id="emoji">😐</div>
+        <!-- <button id="next">Next Video</button> -->
+      </div>
+      <div id="nav">
+        <button id="start">Start</button>
+        <button id="detect">Detect Emotion</button>
+      </div>
+      <textarea id="log" placeholder="Log Data"></textarea>
+      <div id="debug"></div>
+    </div>
+    <!-- My Script File -->
+    <script src="script.js"></script>
   </body>
 </html>

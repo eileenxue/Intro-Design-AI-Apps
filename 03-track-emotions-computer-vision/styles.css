@@ -1,0 +1,47 @@
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: center;
+  /* font-family: ; */
+}
+
+#player {
+  width: 100%;
+  height: auto;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+}
+
+#emoji {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+
+#nav {
+  margin: 10px 0px;
+}
+
+#nav button {
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#debug {
+  margin-top: 10px;
+  background-color: #ccc;
+  transform: scaleX(-1);
+}
