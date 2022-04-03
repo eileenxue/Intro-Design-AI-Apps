@@ -1,0 +1,31 @@
+#container {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#graph {
+  border: 1px solid #000;
+}
+
+#graph-controls {
+  padding: 1rem 0;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#temp-box {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  padding: 1rem;
+}
